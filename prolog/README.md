@@ -56,32 +56,32 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 ## Exemplos de prolog
 
 ### Familia
-% Fatos
+% Fatos<br/>
 pai(joao, maria).<br/>
-pai(joao, jose).
-mae(ana, maria).
-mae(ana, jose).
+pai(joao, jose).<br/>
+mae(ana, maria).<br/>
+mae(ana, jose).<br/>
 
 % Regras
-irmao(X, Y) :- pai(P, X), pai(P, Y), mae(M, X), mae(M, Y), X \= Y.
-filho(X, P) :- pai(P, X); mae(P, X).
-filha(X, P) :- (pai(P, X); mae(P, X)), sexo(X, feminino).
-sexo(maria, feminino).
-sexo(jose, masculino).
+irmao(X, Y) :- pai(P, X), pai(P, Y), mae(M, X), mae(M, Y), X \= Y.<br/>
+filho(X, P) :- pai(P, X); mae(P, X).<br/>
+filha(X, P) :- (pai(P, X); mae(P, X)), sexo(X, feminino).<br/>
+sexo(maria, feminino).<br/>
+sexo(jose, masculino).<br/>
 
 % Consultas:
-% ?- irmao(maria, jose). % verdadeiro
-% ?- filho(jose, joao).  % verdadeiro
-% ?- filha(maria, ana).  % verdadeiro
+% ?- irmao(maria, jose). % verdadeiro<br/>
+% ?- filho(jose, joao).  % verdadeiro<br/>
+% ?- filha(maria, ana).  % verdadeiro<br/>
 
 ### Missionários ( Exemplo Teórico e não funcional [ Pedi um exeplo de ia pro GPT, requer um controle de estados maior ] )
 
-% Definição de estados: (Missionários, Canibais, Lado)
-estado(0, 0, esq).  % Estado final: todos do outro lado.
+% Definição de estados: (Missionários, Canibais, Lado)<br/>
+estado(0, 0, esq).  % Estado final: todos do outro lado.<br/>
 
 % Regras de movimentação.
-transporte(3, 3, dir, 2, 0, esq).  % Mover dois missionários.
-transporte(3, 3, dir, 0, 2, esq).  % Mover dois canibais.
+transporte(3, 3, dir, 2, 0, esq).  % Mover dois missionários.<br/>
+transporte(3, 3, dir, 0, 2, esq).  % Mover dois canibais.<br/>
 
 
 
