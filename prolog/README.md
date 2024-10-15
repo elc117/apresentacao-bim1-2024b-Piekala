@@ -62,14 +62,14 @@ pai(joao, jose).<br/>
 mae(ana, maria).<br/>
 mae(ana, jose).<br/>
 
-% Regras
+% Regras<br/>
 irmao(X, Y) :- pai(P, X), pai(P, Y), mae(M, X), mae(M, Y), X \= Y.<br/>
 filho(X, P) :- pai(P, X); mae(P, X).<br/>
 filha(X, P) :- (pai(P, X); mae(P, X)), sexo(X, feminino).<br/>
 sexo(maria, feminino).<br/>
 sexo(jose, masculino).<br/>
 
-% Consultas:
+% Consultas<br/>
 % ?- irmao(maria, jose). % verdadeiro<br/>
 % ?- filho(jose, joao).  % verdadeiro<br/>
 % ?- filha(maria, ana).  % verdadeiro<br/>
