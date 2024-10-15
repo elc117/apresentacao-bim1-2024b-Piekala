@@ -57,7 +57,7 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 
 ### Familia
 % Fatos
-pai(joao, maria).
+pai(joao, maria).<br/>
 pai(joao, jose).
 mae(ana, maria).
 mae(ana, jose).
