@@ -55,7 +55,8 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 
 <details>
 
-<sumary>Exemplos de prolog</sumary>
+<sumary>##Exemplos de prolog</sumary>
+
 % Fatos
 pai(joao, maria).
 pai(joao, jose).
