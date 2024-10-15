@@ -15,12 +15,12 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 
 ### 1. SWI-Prolog
 - **Tipo**: Interpretador e compilador
-- **Disponibilidade**: Local e online (SWISH)
+- **Disponibilidade**: Local e online ( SWISH )
 - **Descrição**: É uma das implementações mais populares de Prolog. Oferece uma gama completa de funcionalidades, como depuração gráfica, análise estática, além de suporte a diversos pacotes e bibliotecas.
 - **Link**: https://www.swi-prolog.org
   
 ### 2. GNU Prolog
-- **Tipo**: Compilador (com suporte a execução interpretada)
+- **Tipo**: Compilador ( com suporte a execução interpretada )
 - **Disponibilidade**: Local
 - **Descrição**: O GNU Prolog é conhecido por gerar código nativo que pode ser executado diretamente, o que resulta em maior eficiência. Também inclui um sistema de depuração e diagnóstico de código.
 - **Link**: http://www.gprolog.org
@@ -33,7 +33,7 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 
 ### 4. ECLiPSe Prolog
 - **Tipo**: Interpretador
-- **Disponibilidade**: Local e remoto (conectado a servidores via cliente)
+- **Disponibilidade**: Local
 - **Descrição**: Focado em problemas de programação em restrições e otimização, o ECLiPSe é utilizado em várias áreas acadêmicas e industriais para resolver problemas complexos.
 - **Link**: https://eclipseclp.org
 
