@@ -79,7 +79,7 @@ sexo(jose, masculino).<br/>
 % Definição de estados: (Missionários, Canibais, Lado)<br/>
 estado(0, 0, esq).  % Estado final: todos do outro lado.<br/>
 
-% Regras de movimentação.<br/>
+% Fatos de movimentação.<br/>
 transporte(3, 3, dir, 2, 0, esq).  % Mover dois missionários.<br/>
 transporte(3, 3, dir, 0, 2, esq).  % Mover dois canibais.<br/>
 
