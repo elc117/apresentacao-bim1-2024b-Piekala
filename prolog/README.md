@@ -51,7 +51,7 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 - Link: https://www.jdoodle.com/execute-prolog-online
 
 ## Uso
-- Prolog tem sido muito utilizada em mercado de Inteligência Arificifial, dado que o mesmo utiliza raciocinio baseado em fatos e regras e possui extensões que permitem lidar com incertezas e estatísticas ( ProbLog )
+- Prolog tem sido muito utilizada em mercado de Inteligência Arificifial, dado que o mesmo utiliza raciocinio baseado em fatos e regras e possui extensões que permitem lidar com incertezas ( ProbLog )
 
 ## Exemplos de prolog
 
