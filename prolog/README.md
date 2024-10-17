@@ -34,7 +34,7 @@ Prolog é uma linguagem declarativa que pode ser compilado ou interpretado.
 ### 4. ECLiPSe Prolog
 - **Tipo**: Interpretador
 - **Disponibilidade**: Local
-- **Descrição**: Focado em problemas de programação em restrições e otimização, o ECLiPSe é utilizado em várias áreas acadêmicas e industriais para resolver problemas complexos.
+- **Descrição**: Focado em problemas de programação em restrições e otimização, o ECLiPSe é utilizado em várias áreas acadêmicas e industriais para resolver problemas complexos ( difere da IDE do Eclipse utilizada para, por exemplo, java ).
 - **Link**: https://eclipseclp.org
 
 ## Plataformas Online
